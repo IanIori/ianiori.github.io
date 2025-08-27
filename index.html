@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
@@ -42,9 +42,7 @@
     <header class="bg-light text-dark text-center py-5">
       <div class="container">
         <h1 class="display-4 fw-bold">Olá, sou Ian Iori</h1>
-        <p class="lead">
-          Analista de Inteligência Operacional • Python • SQL • Power BI
-        </p>
+        <p class="lead">Analista de Dados • Python • SQL • Power BI</p>
         <a href="projects.html" class="btn btn-primary btn-lg">Ver Projetos</a>
       </div>
     </header>
@@ -56,12 +54,12 @@
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card shadow-sm">
-              <img
-                src="assets/img/python.png"
-                class="card-img-top"
-                alt="Python Project"
-              />
               <div class="card-body">
+                <img
+                  src="assets/img/python.png"
+                  alt="Python Icon"
+                  style="width: 60px; height: 60px"
+                />
                 <h5 class="card-title">ETL com Python</h5>
                 <p class="card-text">
                   Pipeline de dados logísticos usando Pandas e SQL.
@@ -74,12 +72,12 @@
           </div>
           <div class="col-md-4">
             <div class="card shadow-sm">
-              <img
-                src="assets/img/powerbi.png"
-                class="card-img-top"
-                alt="Power BI Dashboard"
-              />
               <div class="card-body">
+                <img
+                  src="assets/img/pbi.png"
+                  alt="Power BI Icon"
+                  style="width: 60px; height: 60px"
+                />
                 <h5 class="card-title">Dashboard Power BI</h5>
                 <p class="card-text">
                   KPIs de importação/exportação com visualizações interativas.
@@ -92,12 +90,12 @@
           </div>
           <div class="col-md-4">
             <div class="card shadow-sm">
-              <img
-                src="assets/img/sql.png"
-                class="card-img-top"
-                alt="SQL Project"
-              />
               <div class="card-body">
+                <img
+                  src="assets/img/sql.png"
+                  alt="SQL Icon"
+                  style="width: 60px; height: 60px"
+                />
                 <h5 class="card-title">SQL Performance</h5>
                 <p class="card-text">
                   Otimização de consultas para relatórios operacionais.
@@ -113,8 +111,12 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
       © 2025 - Desenvolvido com Bootstrap
     </footer>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </body>
 </html>
